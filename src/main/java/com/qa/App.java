@@ -14,6 +14,7 @@ public class App
         System.out.println(sayHelloToSomeone("Charlie"));
         System.out.println(sayHelloToSomeone("Everyone"));
         System.out.println(sayHelloToSomeone("Zena"));
+        System.out.println(saySuccessToSomeone("Andrea"));
         System.out.println(sayGoodbye());
     }
 
@@ -27,5 +28,8 @@ public class App
 
     public static String sayHelloToSomeone(String name){
         return "Hello " + name ;
+    }
+    public static String saySuccessToSomeone(String name){
+        return "Pipeline successful " + name ;
     }
 }
